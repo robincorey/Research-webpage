@@ -7,6 +7,7 @@
 		<h1> Protein-lipid interactions </h1>
 		<div id="Protein-lipid interactions">
 			<h2> Protein-lipid interactions </h2>
+			<p> Integral membrane proteins are strongly affected by the lipid environment in which they are localised, through both specific and nonspecific interactions. Whilst structural data can occasionally reveal the binding of specific phospholipids to membrane proteins, more often than not the use of harsh detergents during purification precludes this. As a result, biophysical analyses of lipid binding can be a powerful complement to structural data. </p> <br>
 			<p> My interest in protein-lipid interactions currently follows two different strands </p>
 			<ul>
 				<li> <a href="#cftr"> Lipid interactions of CFTR </a></li>
@@ -14,14 +15,24 @@
 			</ul>
 			<h3 id="cftr"> Lipid interactions of CFTR </h3>
 			<p> Cystic fibrosis (CF) is a genetic disorder caused by mutations in the cystic fibrosis transmembrane conductance regulator (CFTR), a complexly-regulated epithelial Cl- channel and a unique member of the ATP binding cassette (ABC) protein family. <br /><br />CFTR comprises a cytoplasmic ATPase domain, formed from two Walker A and B containing nucleotide binding domains, and a transmembrane region formed from two transmembrane domains. Between TMD1 and 2 is a channel through which Cl- ions are conducted across the membrane. In addition to these domains is the regulatory R domain (Fig. 1; blue), which needs to be phosphorylated before the channel can open </p>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="C:\Users\Robin\Pictures\CFTR.png" height="300" alt="Image of CFTR"/></a>
+			<img src="../Images/CFTR.png" height="300" alt="Image of CFTR"/>
+			<p> CFTR is located in the epithelial cell membrane – a complex environment containing an array of different phospholipids, glycolipids and sterols. These lipids can organise into membrane micro-domains, such as caveolar or planar raft domains: transiently formed structural regions within the plasma membrane that are enriched in certain lipids such as saturated phospholipids and cholesterol (CH). About half of CFTR in airway epithelial cells is located in detergent-resistant membrane fractions, indicating localization in one of these raft domains. Image correlation spectroscopy reveals CFTR to exist in two dynamically distinct populations, with high or low dynamics – the latter consistent with raft domain localisation. Depletion of CH prevents CFTR association in raft domains, although it is unclear if this is through abolishment of specific CFTR-CH interactions, or simply through prevention of raft domain formation. </p><br>
+			<p> I am currently analysing this process using the MARTINI force field. For my approach, I am constructing membranes using a spontaneous assembly approach (producing a full membrane), and using varying amounts of CH and saturated and unsaturated PC lipids. This will produce membrane systems exhibiting split phase behaviour, with distinct liquid-ordered (lo) and a liquid-disordered (ld) phases separated by a clear boundary. Inclusion of human CFTR then reveals the relative propensity of CFTR to enter either phase. </p> <br>
+			<p> Initial analyses confirm that CFTR associates with raft-domains (see panel B below), and that specific CH binding modes are seen (panels C and D). Now we are working on testing these interactions using additional simulations and physiological experiment. <p>
+			<img src="../Images/CFTR_data.png" height="300" alt="CFTR lipid binding data"/>	
+			<br>
 			<h3 id="cl"> Cardilopin </h3>
 			<p>CL is an anionic phospholipid, found on a variety of energy-producing membranes including the mitochondrial inner membrane and the plasma membrane of many different bacteria and archaea. CL has an unusual structure, comprising two PG molecules joined by a glycerol head group. This provides each CL molecules with two phosphate head groups and four acyl chains. <br /><br />
 			CL likely has an important role in bioenergetics processes, as evidenced by its presence on energy transducing membranes and co-isolation with a considerable number of bioenergetics protein complexes – including the mitochondrial ATP synthase at a tri-methylated lysine residue,  as well as with SecY. CL binding sites are typified by the presence of one or more basic residues that form pockets of positive charge on the surface of the protein as shown strutrally.<br /><br /></p>
-			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="C:\Users\Robin\Pictures\CL_bind.png" height="300" alt="CL binding to YEG"/></a>
+			<a href="https://www.biorxiv.org/content/early/2017/10/12/202184" target="_blank"><img src="../Images/CL_bind.png" height="300" alt="CL binding to YEG"/></a>
 			<p>
 			We are interested in application of the MARTINI force field towards identification of CL binding sites in SecYEG.We aim to verify the data using experimental techniques previously applied to the same system, as well as using native mass spectroscopy
 			</p>
+			<a href="https://www.biorxiv.org/content/early/2017/10/12/202184" target="_blank"><img src="../Images/CL_bind2.png" height="300" alt="CL binding to YEG2"/></a>
+			<p>
+			Currently, we are working on the identification of CL binding sites in Thermotoga maritima SecA-SecYEG. The data reveals the presence of two distinct CL binding sites in SecY, as well as supporting a key role in lipid binding for the N-terminus of SecA. We then validate the putative SecY CL binding sites and demonstrate the conserved nature of the SecY-CL interaction using biochemical and native mass spectrometry analyses of Escherichia coli SecYEG variants. </p>
+			<a href="https://www.biorxiv.org/content/early/2017/10/12/202184" target="_blank"><img src="../Images/CL_bind3.png" height="300" alt="CL binding to YEG3"/></a>
+			<p> This work is currently on bioRxiv, and will shortly be submitted for peer review. </p>
 			</div>	
 	</body>
 </html>
