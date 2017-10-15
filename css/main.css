@@ -8,13 +8,19 @@ p {
 }
 ul {
     font-family: Arial;
+    list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
+    line-height: 30px;
 }
-
+li:before {
+    content: ">"; 
+    padding-right: 8px;
+    color: blue;
+}
 h1 {
     font-family: Verdana;
     margin-right: 10px;
