@@ -16,11 +16,6 @@ ul {
     padding: 10px 10px 10px 10px;
     line-height: 30px;
 }
-li:before {
-    content: ">"; 
-    padding-right: 8px;
-    color: blue;
-}
 h1 {
     font-family: Verdana;
     margin-right: 10px;
