@@ -101,3 +101,25 @@ h5 {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 16px;}
 }
+ul.breadcrumb {
+    padding: 0px 200px;
+    list-style: none;
+    background-color: none;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    color: black;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "   ";
+}
+ul.breadcrumb li a {
+    color: #888888	;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: black;
+}
