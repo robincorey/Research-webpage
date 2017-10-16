@@ -1,13 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 p {
-    font-family: Arial;
+    font-family: 'Open Sans';
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 20px;
     padding: 10px 100px 10px 10px;
+    color: #404040;
+
 }
 ul {
-    font-family: Arial;
+    font-family: 'Open Sans';
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -16,37 +20,70 @@ ul {
     padding: 10px 100px 10px 10px;
     line-height: 30px;
 }
+a:hover, .offcanvas a:focus{
+    color: #080808;
+    font-weight: bold;
+}
 img {    
   position: relative;
   left: 60px;
+  font-family: Arial;
 }
 h1 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
+
 }
 h2 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h3 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h4 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h5 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
+}
+ul.breadcrumb {
+    padding: 0px 200px;
+    list-style: none;
+    background-color: none;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    color: black;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "   ";
+}
+ul.breadcrumb li a {
+    color: #888888	;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: black;
 }
