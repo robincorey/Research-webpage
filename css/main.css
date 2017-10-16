@@ -1,17 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 p {
-    font-family: Arial;
+    font-family: 'Open Sans';
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #404040;
+}
+a:hover, .offcanvas a:focus{
+    color: #080808;
+    font-weight: bold;
 }
 img {    
   position: relative;
   left: 60px;
+  font-family: Arial;
 }
 ul {
-    font-family: Arial;
+    font-family: 'Open Sans';
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -21,37 +29,42 @@ ul {
     line-height: 30px;
 }
 ol {
-  font-family: Arial;
+  font-family: 'Open Sans';
 }
 h1 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h2 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h3 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h4 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 h5 {
     font-family: Verdana;
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 100px 10px 10px;
+    color: #505050
 }
 .sidenav {
   height: 100%;
